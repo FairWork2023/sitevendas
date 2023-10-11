@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <!-- para abrir o menu -->
+            <button class="menu" onclick="openNav()">
+                <img src="https://www.pinclipart.com/picdir/big/532-5328945_menu-bar-icon-white-clipart-png-download-menu.png"
+                    width="30px" alt="">
+            </button>
+
+            <!-- para fachar o menu -->
+            <div id="myNav" class="dadosdomenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+                <!--os dados de dentro dele -->
+                <div class="dados">
+                    <a href="">produtos<img class="imgagendamento"
+                            src="https://th.bing.com/th/id/R.3c21ef2fede4206c619c4cdadcfc688e?rik=2lWHrCV49qP6rA&pid=ImgRaw&r=0"
+                            width="25px" alt=""></a>
+                    <a
+                        href="https://mmano.com.br/w/cabelo-platinado?fbclid=PAAaYQ87B-5ystL63yMqRgAo30_mGztgrBF1cpGzVB4gop5vutVbsoeHGieYI">Meus pedidos
+                        <img class="imgartigo"
+                            src="https://th.bing.com/th/id/R.376fbe6ae7fcb6e7cd6bae99d25e7586?rik=sxSym2Knt2yHvw&pid=ImgRaw&r=0"
+                            width="25px" alt=""></a>
+
+                    <a href="#">suporte<img class="imglocalização" src="https://eps-formation.fr/img/_position2.png"
+                            width="25px" alt=""></a>
+                </div>
+            </div>
+            <!-- logo -->
+            <div class="logop">
+                NovaNexus
+            </div>
+            <div class="carrinho">
+                <img src="icons8-carrinho-30.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="produtos">
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.01.jpeg" alt="Nome do Produto">
+                <h2>Processador</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.02 (1).jpeg" alt="Nome do Produto">
+                <h2>Memoria</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.02 (2).jpeg" alt="Nome do Produto">
+                <h2>Gabinete</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.02 (3).jpeg" alt="Nome do Produto">
+                <h2>placa de video</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.02.jpeg" alt="Nome do Produto">
+                <h2>Placa de video</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.03 (1).jpeg" alt="Nome do Produto">
+                <h2>Placa mãe</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.03 (2).jpeg" alt="Nome do Produto">
+                <h2>Placa de mãe</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section class="product">
+                <img src="WhatsApp Image 2023-10-10 at 22.17.03.jpeg" alt="Nome do Produto">
+                <h2>Pc gamer</h2>
+                <p>Descrição do produto.</p>
+                <p class="price">$19.99</p>
+                <button>Add to Cart</button>
+            </section>
+        </div>
+
+
+
+        <div class="imagemp">
+            <img src="WhatsApp Image 2023-09-18 at 21.14.07 (1).jpeg" width="600" alt="">
+        </div>
+        <hr class="hr1">
+    </main>
+
+    <footer>
+        <img class="imglogologin" src="WhatsApp Image 2023-09-18 at 21.07.42.jpeg" alt="">
+        <form class="telalogin">
+            <h2>login</h2>
+            <br>
+            <div class="box-user">
+                <input type="text" nome="" required>
+                <label>usuario</label>
+            </div>
+            <br>
+            <div class="box-user">
+                <input type="password" nome="" required>
+                <label>senha</label>
+            </div>
+            <br>
+            <div>
+                <a href="#" class="forget">esqueceu a senha?</a>
+                <br>
+                <a href="#" class="forget">Criar conta!</a>
+            </div>
+            <div class="botãologin">
+                <a href="#">
+                    <button>Entrar</button>
+                </a>
+            </div>
+        </form>
+    </footer>
+    <hr class="hr2">
+</body>
+
+</html>

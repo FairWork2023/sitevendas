@@ -1,0 +1,237 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: 0%;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgb(165, 165, 165);
+    height: 300ch;
+
+}
+
+.carrinho {
+    margin-top: -3.5%;
+    margin-left: 95%;
+}
+
+.topo {
+    margin-top: -10%;
+    background: rgba(13, 13, 14, 0.404);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+
+.logop {
+    position: absolute;
+    left: 40%;
+    color: white;
+    margin-top: -64px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.imgagendamento {
+    background-color: transparent;
+    border: none;
+    margin-left: -51px;
+    margin-top: -25px;
+}
+
+.imgartigo {
+    background-color: transparent;
+    border: none;
+    margin-left: -51px;
+    margin-top: -25px;
+}
+
+.imglocalização {
+    background-color: transparent;
+    border: none;
+    margin-left: -51px;
+    margin-top: -25px;
+}
+
+.dadosdomenu {
+
+    width: 0%;
+    height: 40%;
+    background: rgb(0, 0, 0);
+    z-index: 9;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+
+.dados a {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#myNav {
+    top: 3%;
+    border-radius: 0% 10% 10% 0%;
+}
+
+.closebtn {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -1%;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+
+}
+
+nav.hover {
+    display: flex;
+    border: transparent;
+}
+
+
+main .imagemp img {
+    margin-left: 54%;
+    margin-top: -22%;
+    border-radius: 20px;
+}
+
+.hr1 {
+    margin-top: 10%;
+    background-color: white;
+}
+
+footer {
+    background: #4caf99;
+    height: 45%;
+}
+
+.imglogologin {
+    border-radius: 20%;
+    margin-left: 45%;
+    margin-top: 13%;
+}
+
+.telalogin {
+    margin-left: 38%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.719);
+    width: 25%;
+    height: 40ch;
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+}
+
+.telalogin a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botãologin a button {
+    position: relative;
+    margin-left: 25%;
+    margin-top: 13%;
+    font-family: 'Poppins', sans-serif;
+    background: #4caf99;
+    border: 0;
+    color: white;
+    width: 40%;
+    height: 5ch;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.telalogin .box-user {
+    position: relative;
+}
+
+.telalogin .box-user input {
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+.telalogin .box-user label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.telalogin .box-user input:focus~label,
+.telalogin .box-user input:valid~label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+
+}
+
+section.product {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(255, 251, 251);
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+button {
+    background-color: #4caf99;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section img {
+    width: 200px;
+}
